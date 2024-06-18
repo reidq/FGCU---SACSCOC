@@ -1,0 +1,169 @@
+body {
+    background-color: rgb(245, 245, 245);
+    padding: 4em 0 6em 0;
+
+}
+
+/* Colors and Branding */
+
+:root {
+    --emerald: #00794c;
+    --cobalt: #004785;
+    --coolslate: #55616D;
+    --marine: #008ab3;
+    --hyperlink-marine: #007DA3;
+    --seafoam: #aae8e8;
+    --brightaqua: #00bbdd;
+    --slate-25: #d4d7da;
+    --slate-15: #e6e7e9;
+    --slate-10: #eeeff0;
+    --slate-5: #f6f7f8;
+}
+/** Typography **/
+
+h1 {
+    font-size: 60px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+h4 {
+    font-size: 16px;
+}
+
+h5 {
+    font-size: 15px;
+}
+
+h6 {
+    font-size: 14px;
+}
+
+a, span {
+    font-weight: 500;
+}
+
+p {
+    font-size: 14px;
+}
+
+a {
+    text-decoration: underline;
+    color: #00794a;
+    font-size: 14px;
+}
+
+a:hover {
+    color: #004785;
+}
+
+
+h1,h2,h3,h4,h5,h6, p, a {
+    font-family: 'Rig-Sans', Arial, sans-serif; 
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-weight: 700;
+}
+
+
+.section-label-div a {
+   letter-spacing: 2px;
+   
+}
+
+.section-label {
+   
+}
+
+/** Containers **/
+
+.container-main {
+    background-color: rgb(255, 255, 255);
+    width: 1000px;
+    margin: 0 auto;
+    border: 1px solid rgb(230, 230, 230);
+}
+
+.table-of-contents {
+    padding: 25px;
+}
+
+
+.section-label-div {
+    margin-left: 2em;
+    margin-top: 2em;
+}
+
+.section-description-div {
+    margin-left: 2em;
+    margin-top: 1em;
+}
+
+.section-description-div a {
+    font-weight: 700;
+}
+
+.judgements-div {
+    background-color: var(--slate-5);
+    padding: 10px 1em 5px 1em;
+    height: 80%;
+}
+
+.judgements-div h2 {
+    margin: .5em 0 2em .75em;
+}
+
+/** Navigation **/
+#navbar {
+    background-color: #004785;
+    height:100%;
+    display: flex;
+    justify-content: left;
+    padding: 0 1em 0 1em;
+}
+
+#navbar ul {
+    list-style-type: none;
+    display: flex;
+
+}
+
+#navbar li {
+    margin: 0 10px; /* Adjust spacing between menu items as needed */
+}
+
+#navbar li a {
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    color: white;
+}
+
+#navbar li a:hover {
+    background-color: #06559a;
+  
+}
+
+/** Banner **/
+.home-banner {
+   background-image: url('../img/campus-view.jpg');
+   background-size: cover;
+   background-position: 5% 55%;
+   height: 150px;
+   width: 100%;
+   margin: 0 auto;
+  
+}
+
+/** Images & Logos **/
+.main-logo {
+    width:45%;
+    padding: 1em 0 1em 2em;
+}
