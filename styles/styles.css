@@ -23,7 +23,7 @@ body {
 /** Typography **/
 
 h1 {
-    font-size: 60px;
+    font-size: 25px;
 }
 
 h2 {
@@ -188,6 +188,7 @@ h1,h2,h3,h4,h5,h6 {
 
 /**  Judgements & Checkbox **/
 
+/** Check Mark **/
 .check {
     -webkit-appearance: none; /*hides the default checkbox*/
     height: 15px;
@@ -227,6 +228,8 @@ h1,h2,h3,h4,h5,h6 {
     display: inline-block;
 }
 
+
+/** Check Dash **/
 
   
   .check-dash:hover {
