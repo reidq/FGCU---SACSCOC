@@ -28,8 +28,8 @@
             <div id="navbar">
                 <ul>
                     <li><a href="index.html">Home</a></li>
-                    <li><a href="#home">Compliance Report</a></li>
-                    <li><a href="#contact">PLACEHOLDER #3</a></li>
+                    <li><a href="#home">Placeholder #2</a></li>
+                    <li><a href="#contact">Placeholder #3</a></li>
                 </ul>
             </div>
 
@@ -37,7 +37,16 @@
     </section>
 
     <section class="container-main">
+        
         <div class="container table-of-contents">
+            <nav class="breadcrumb breadcrumbs-style has-arrow-separator" aria-label="breadcrumbs">
+                <ul>
+                  <li><a href="index.html">Table of Contents</a></li>
+                  <li class="is-active breadcrumbs-active"><a href="#">Section 12.5 - Student Records</a></li>
+                  
+                
+                </ul>
+              </nav>
             <div class="columns">
                 <div class="column is-three-quarters">
                     <h2>Section 12.5 - Student Records</h2>
@@ -259,19 +268,19 @@
                 <div class="column">
                     <div class="judgements-div">
                         <h2>Judgements</h2>
-
-                        <input id="compliant" type="checkbox" name="compliant" class="check" disabled>
-                        <label for="compliant">Compliant</label>
                         <div class="mt-2">
                             <!-- Non Compliant Check -->
-                            <input id="non-compliant" type="checkbox" name="non-compliant" class="check">
-                            <label for="non-compliant">Non-Compliant</label>
+                            <img src="img/checkmark.png"><span class="slate-50">Compliant</span>
+                        </div>
+
+                        
+                        <div class="mt-2">
+                            <img src="img/xmark.png"><span class="slate-50">Non Compliant</span>
                         </div>
 
                         <div class="mt-2">
                             <!-- Non Compliant Check -->
-                            <input id="non-compliant" type="checkbox" name="non-compliant" class="check-dash">
-                            <label for="non-compliant">Not-applicable</label>
+                            <img src="img/dashmark.png"><span class="slate-50">Not applicable</span>
                         </div>
 
                     </div>
@@ -285,8 +294,9 @@
         <footer class="footer">
             <div class="content has-text-centered">
                 <p>
-                    LORUM IPSUM PLACEHOLDER FOOTER COPY
+                    © Florida Gulf Coast University. All Rights Reserved.
                 </p>
+                <a href="https://www.fgcu.edu/"">fgcu.edu</a>
             </div>
         </footer>
     </section>

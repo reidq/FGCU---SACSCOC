@@ -14,11 +14,42 @@ body {
     --hyperlink-marine: #007DA3;
     --seafoam: #aae8e8;
     --brightaqua: #00bbdd;
+    --slate-50: #828282;
     --slate-25: #d4d7da;
     --slate-15: #e6e7e9;
     --slate-10: #eeeff0;
     --slate-5: #f6f7f8;
     --bulma-body-background-color: #ffffff;
+}
+
+.primary-color {
+    color: var(--emerald);
+}
+
+.slate-25 {
+    color: var(--slate-25);
+}
+
+.slate-50 {
+    color: var(--slate-50);
+}
+
+.breadcrumbs-style a {
+    color: var(--coolslate);
+    text-decoration: none;
+    
+}
+
+.breadcrumbs-style a:hover {
+    color: var(--cobalt);
+}
+
+.breadcrumbs-active {
+    color: var(--slate-25) !important;
+}
+
+.breadcrumb.has-arrow-separator li + li::before {
+    font-size: 12px;
 }
 /** Typography **/
 
@@ -128,6 +159,10 @@ h1,h2,h3,h4,h5,h6 {
     margin: .5em 0 0 0;
 }
 
+.judgements-div img {
+    width: 18px;
+}
+
 .documents-linked h3 {
     font-size: 13px;
 }
@@ -186,90 +221,6 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 
-/**  Judgements & Checkbox **/
-
-/** Check Mark **/
-.check {
-    -webkit-appearance: none; /*hides the default checkbox*/
-    height: 15px;
-    width: 15px;
-   
-    top: 20px;
-    left: 20px;
-    transition: 0.10s;
-    background-color: gray;
-    text-align: center;
-    font-weight: 600;
-    color: white;
-    border-radius: 3px;
-    outline: none;
-  }
-  
-
-.check:checked {
-    background-color: #14c700;
-}
-
-.check:before {
-    content: ""; /* Ensures default state is empty */
-    
-}
-
-.check:checked:before {
-    content: "✔"; /* Shows a checkmark when checked */
-    font-size: 10px;
-    line-height: 15px;
-    display: inline-block;
-}
-
-  .check:before, .check:checked:before {
-    font-size: 10px; /* Adjust the size as needed */
-    line-height: 15px; /* Align vertically within the checkbox */
-    display: inline-block;
-}
-
-
-/** Check Dash **/
-
-  
-  .check-dash:hover {
-    cursor: pointer; 
-    opacity: 0.8;
-  }
-
-  .check-dash {
-    -webkit-appearance: none; /*hides the default checkbox*/
-    height: 20px;
-    width: 20px;
-   
-    top: 20px;
-    left: 20px;
-    transition: 0.10s;
-    background-color: #bebebe;
-    text-align: center;
-    font-weight: 600;
-    color: white;
-    border-radius: 3px;
-    outline: none;
-  }
-  
-  .check-dash:checked {
-    background-color: #535353;
-  }
-  
-  .check-dash:before {
-    content: "—";
-  }
-  .check-dash:checked:before {
-    content: "—";
-  }
-
-
-  
-  .check-dash:hover {
-    cursor: pointer; 
-    opacity: 0.8;
-  }
 
 /** Footer **/
 .footer {
@@ -279,4 +230,12 @@ h1,h2,h3,h4,h5,h6 {
 
 .footer p {
     color: white;
+    margin-bottom: 0 !important;
+    
 }
+
+.footer a {
+    color: white;
+    line-height: 0;
+
+}   

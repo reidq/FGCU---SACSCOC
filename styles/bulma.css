@@ -6465,7 +6465,7 @@ button.tag:active,
   padding-inline-start: 0;
 }
 .breadcrumb li.is-active a {
-  color: var(--bulma-breadcrumb-item-active-color);
+  color: var(--slate-25);
   cursor: default;
   pointer-events: none;
 }
